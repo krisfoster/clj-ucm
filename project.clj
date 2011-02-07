@@ -20,7 +20,11 @@
   :dev-dependencies [
                 ; Needed for vim integration
                 [vimclojure/server "2.3.0-SNAPSHOT"]
-                [org.clojars.autre/lein-vimclojure "1.0.0"]]
+                [org.clojars.autre/lein-vimclojure "1.0.0"]
+                [org.clojars.technomancy/clj-stacktrace "0.2.1-SNAPSHOT"]]
                 ;
+  ; This loads the user specific conf - in this case some
+  ; utility functions and the connection details to my UCM instance
+  :repl-init-script "src/conf.clj"
   )
 
