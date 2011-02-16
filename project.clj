@@ -36,6 +36,7 @@
                  [org.clojure/clojure-contrib "1.2.0-beta1"]
                  [clj-time "0.1.0-RC1"]
                  [oracle/ridc "10.0"]
+                 [clojure-csv "1.2.4"]
                  ]
   :dev-dependencies [
                 ; Needed for vim integration
