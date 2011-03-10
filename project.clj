@@ -37,6 +37,7 @@
                  [clj-time "0.1.0-RC1"]
                  [oracle/ridc "10.0"]
                  [clojure-csv "1.2.4"]
+                 [commons-httpclient/commons-httpclient "3.0.1"]
                  ]
   :dev-dependencies [
                 ; Needed for vim integration
